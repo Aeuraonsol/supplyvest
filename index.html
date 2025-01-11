@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupplyVest | Al Agent & Defi for Global Trade</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('4.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .header-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .second-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .third-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 0px;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            line-height: 1.4;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .text-box {
+            background-image: url('5.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 30px 30px 50px 30px;
+            margin: 30px 110px 0 110px;
+            text-align: center;
+        }
+
+        .text-box h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .text-box p {
+            font-size: 1.3rem;
+            line-height: 2;
+            color: white;
+            margin: 0 5px;
+            padding: 0;
+        }
+
+        .twitter-link {
+            display: block;
+            text-align: center;
+            color: #156de1;
+            text-decoration: none;
+            font-size: 1.6rem;
+        }
+
+        .twitter-link:hover {
+            text-decoration: none;  /* 移除悬停时的下划线 */
+        }
+
+        .text-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .text-box img:first-of-type {
+            margin-top: 20px;
+        }
+
+        .text-box img:last-of-type {
+            margin-left: -30px;
+            margin-right: -30px;
+            width: calc(100% + 60px);
+        }
+
+        .text-box input {
+            width: 30%;
+            padding: 10px;
+            margin: 6px 0;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #333;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text-box input::placeholder {
+            color: #999;
+        }
+
+        .submit-button {
+            background-color: #1DA1F2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 30px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .submit-button:hover {
+            background-color: #4CAF50;  /* 绿色 */
+        }
+
+        .full-width-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gradient-text-container {
+            background-image: url('11.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px 0;
+        }
+
+        .green-text {
+            color: #4CAF50;  /* 绿色 */
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: inline;  /* 让两个文字部分在同一行 */
+        }
+
+        .blue-text {
+            color: #1a90d9;  /* 调整为更深的蓝色 */
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: inline;
+        }
+
+        .text-center {
+            text-align: center;  /* 确保文字居中 */
+        }
+
+        .icon-link {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        .icon-link img {
+            height: 3.3rem;  /* 将图片高度从1.8rem增加到2.2rem */
+            width: auto;
+            vertical-align: middle;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img src="1.png" alt="Header Image" class="header-image">
+    <div class="gradient-text-container">
+        <div class="text-center">
+            <span class="green-text">CA:</span>
+            <span class="blue-text">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <a href="https://pump.fun/board" target="_blank" class="icon-link">
+                <img src="12.png" alt="Pump Fun">
+            </a>
+        </div>
+    </div>
+    <img src="2.png" alt="Second Image" class="second-image">
+    <img src="3.png" alt="Third Image" class="third-image">
+    <div class="text-box">
+        <h2>Try Our AI Agents</h2>
+        <p>Engage with "Uncle Ugo" on Twitter, oure autonomous a.i. powered agent that can respond with real-time official currency exchange rates and commodity prices from the SupplyVest API, as well as talk business :).</p>
+        <a href="https://x.com/SupplyVestHQ" target="_blank">
+            <img src="6.png" alt="SupplyVest Twitter">
+        </a>
+        <img src="7.png" alt="Additional Image">
+    </div>
+    <div class="text-box">
+        <h2>Join Our Private Beta</h2>
+        <input type="email" placeholder="Enter your email address" id="email-input">
+        <button class="submit-button" onclick="submitEmail()">I Am Interested</button>
+    </div>
+    <img src="8.png" alt="Image 8" class="full-width-image">
+    <img src="9.png" alt="Image 9" class="full-width-image">
+    <div class="scroll-indicator">
+        ⬇
+    </div>
+    <script>
+        function submitEmail() {
+            const email = document.getElementById('email-input').value;
+            if (email) {
+                // 这里可以添加发送邮件到服务器的代码
+                alert('Thank you for your interest! Email submitted: ' + email);
+            } else {
+                alert('Please enter your email address');
+            }
+        }
+    </script>
+</body>
+</html> 
